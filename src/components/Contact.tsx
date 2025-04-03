@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, Linkedin, GitHub, MapPin } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -63,7 +63,7 @@ const Contact = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a href="#" className="p-3 rounded-full bg-tech-gray-light hover:bg-tech-blue/10 text-tech-gray-dark hover:text-tech-blue transition-colors">
-                  <GitHub className="h-5 w-5" />
+                  <Github className="h-5 w-5" />
                 </a>
               </div>
             </div>
